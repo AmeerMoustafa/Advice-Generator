@@ -4,7 +4,8 @@ Second Front-end Mentor challenge, really enjoyed building this and learning to 
 
 ## Screenshot
 
-![image](https://github.com/ForbiddenShadow/Advice-Generator/assets/9211143/f478b615-bc94-4faf-802a-2c705ec92599)
+![image](https://github.com/ForbiddenShadow/Advice-Generator/assets/9211143/d986110e-df39-4343-ab3b-d4473b910eb3)
+
 
 ## My Process and tools:
 
