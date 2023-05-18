@@ -18,24 +18,29 @@ body {
   justify-content: center;
   flex-direction: column;
   background-color: hsl(217, 19%, 24%);
-  min-height: 35vh;
-  width: 55vh;
+  min-height: 38vh;
+  width: 65vh;
   border-radius: 3%;
   gap: 4vh;
 }
 
-p {
+.quotes-container {
+  display: flex;
+  min-height: 10vh;
+}
+
+h1 {
   color: hsl(150, 100%, 66%);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 
 h2 {
-  margin-left: 4vh;
-  margin-right: 4vh;
   text-align: center;
   color: hsl(193, 38%, 86%);
   font-size: 1.75rem;
+  margin-left: 1vh;
+  margin-right: 1vh;
 }
 
 .mobile-image {

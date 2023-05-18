@@ -10,7 +10,7 @@
 
         const data = await getData();
         
-        document.querySelector('p').innerHTML = `Advice #${data.slip.id}`
+        document.querySelector('h1').innerHTML = `Advice #${data.slip.id}`
         document.querySelector('h2').innerHTML = `"${data.slip.advice}"`
 
     }
