@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: hsl(218, 23%, 16%);
+}
+
+.advice-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(217, 19%, 24%);
+  min-height: 35vh;
+  width: 55vh;
+  border-radius: 3%;
+  gap: 4vh;
+}
+
+p {
+  color: hsl(150, 100%, 66%);
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+h2 {
+  margin-left: 4vh;
+  margin-right: 4vh;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+  font-size: 1.75rem;
+}
+
+.mobile-image {
+  display: none;
+}
+
+.button {
+  position: absolute;
+  top: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  width: 6vh;
+  height: 6vh;
+  background-color: hsl(150, 100%, 66%);
+}
+
+.button:hover {
+  color: hsl(150, 100%, 66%);
+  box-shadow: 0px 1px 40px hsl(150, 100%, 66%);
+}
+
+@media screen and (max-width: 375px) {
+  .advice-container {
+    width: 40vh;
+    min-height: 45vh;
+    gap: 2.5vh;
+  }
+  .mobile-image {
+    display: flex;
+  }
+  .desktop-image {
+    display: none;
+  }
+  .button {
+    top: 68vh;
+    width: 10vh;
+    height: 10vh;
+  }
+  p {
+    font-size: 0.5;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
